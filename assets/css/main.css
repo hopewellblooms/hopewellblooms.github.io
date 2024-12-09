@@ -2220,3 +2220,12 @@ section,
 .address-image {
   width: 80%;
 }
+
+img.coupon{
+  margin: auto; 
+  display: block
+}
+
+.coupon{
+  background: #9a9c8f;
+}
