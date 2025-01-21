@@ -895,6 +895,75 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Growers Section
+--------------------------------------------------------------*/
+.growers .section-title h2 {
+  color: var(--accent-color);
+  font-size: 20px;
+}
+.growers.row {
+  display: flex;
+  align-items: stretch;
+}
+.growers .content .growers-item {
+  background-color: var(--surface-color);
+  padding: 20px 30px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  position: relative;
+  flex: 1 1 0px !important;
+
+}
+
+
+h4.growers-item-content-heading{
+  font-size: 1rem;
+}
+
+.growers .content .growers-item .growers-item-icon>span {
+  color: var(--default-color);
+  font-size: 4rem;
+}
+
+.growers .content .growers-item .growers-item-content .growers-heading {
+  font-size: 20px;
+  color: var(--default-color);
+  font-weight: 400;
+}
+
+.growers .content .growers-item .growers-item-content p {
+  font-size: 15px;
+}
+
+@media (min-width: 769px) {
+  .growers .content [class^=col-]:nth-child(3n+3) .growers-item {
+    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+
+  .growers .content [class^=col-]:nth-last-child(-n+3) .growers-item {
+    border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+}
+
+@media (max-width: 768px) {
+  .growers .content [class^=col-]:nth-child(2n+2) .growers-item {
+    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+
+  .growers .content [class^=col-]:last-child .growers-item,
+  .growers .content [class^=col-]:nth-last-child(2) .growers-item {
+    border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+}
+
+@media (max-width: 576px) {
+  .growers .content [class^=col-] .growers-item {
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    margin-bottom: 10px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 .services .section-title h2 {
