@@ -908,8 +908,8 @@ section,
 .growers .content .growers-item {
   background-color: var(--surface-color);
   padding: 20px 30px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /* border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
+  /* border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
   position: relative;
   flex: 1 1 0px !important;
 
@@ -937,11 +937,11 @@ h4.growers-item-content-heading{
 
 @media (min-width: 769px) {
   .growers .content [class^=col-]:nth-child(3n+3) .growers-item {
-    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    /* border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
   }
 
   .growers .content [class^=col-]:nth-last-child(-n+3) .growers-item {
-    border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    /* border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
   }
 }
 
