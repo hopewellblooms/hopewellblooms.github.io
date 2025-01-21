@@ -940,6 +940,10 @@ section,
   display: none;
 }
 
+h4.service-item-content-heading{
+  font-size: 1rem;
+}
+
 .services .content .service-item .service-item-icon>span {
   color: var(--default-color);
   font-size: 4rem;
